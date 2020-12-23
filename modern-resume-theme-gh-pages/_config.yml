@@ -54,24 +54,29 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Java</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Highlights # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        #title: Super awesome project
+        #link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            #icon: fab fa-github
+            #url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+           Alongside my interests in software engineering some of my highlights are:
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          - Hult Prize Competitor in Tunis El Manar Campus
+          - Google Club Vice-President at ISET Bizerte
+          - Dean’s List and Honors Project in Kirkwood Community College
+          - Outstanding International Student Award in Kirkwood Community College
+          - Thomas Jefferson Scholarship Program alumna, sponsored by the US department of States
+          - Multiple Soft Skills: analysis, conceptual skills, brainstorming, decision-making, collaboration, communication, leadership
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -192,16 +197,17 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my highlights are:
-      - Hult Prize Competitor in Tunis El Manar Campus
-      - Google Club Vice-President at ISET Bizerte
-      - Dean’s List and Honors Project in Kirkwood Community College
-      - Outstanding International Student Award in Kirkwood Community College
-      - Thomas Jefferson Scholarship Program alumna, sponsored by the US department of States
-      - Multiple Soft Skills: analysis, conceptual skills, brainstorming, decision-making, collaboration, communication, leadership
+      Technology Summary :
+      - <b>Programming/Languages:</b> Java, C#, ASP.NET, C, HTML, CSS, JavaScript, jQuery, XML, PHP, SQL, Android, iOS, Swift, UML, BPMN
+      - <b>Software/Tools:</b> Eclipse, NetBeans, Visual Studio, SQL Server, MySQL Workbench, Oracle Database, WampServer Android Studio, Xcode, JUnit, StarUML, Helfo, Odoo, Trello, MS Office
+      - <b>Systems:</b> Windows, Linux/Unix, Mac OS
+      - <b>Skills in Progress:</b> AI, Machine Learning, Deep Learning, Python, Cloud Computing (Docker-Kubernetes-AWS), Web Service (SOAP-REST-HTTP), Blockchain, Big Data, BI
+      <hr>
+      Language Abilities :
+      - Arabic – Native 
+      - French – Proficient 
+      - English – Proficient
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
